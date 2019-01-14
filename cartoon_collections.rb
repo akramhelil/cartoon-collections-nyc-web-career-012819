@@ -5,8 +5,9 @@ dwarves.each_with_index do |dwarf, index|
 end
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet(capitan_calls)# code an argument here
   # Your code here
+  capitan_calls.map { |call| call.capitalize + "!"  }
 end
 
 def long_planeteer_calls# code an argument here
